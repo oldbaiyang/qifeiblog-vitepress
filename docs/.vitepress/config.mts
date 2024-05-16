@@ -60,6 +60,9 @@ export default defineConfig({
         icon: 'github',
         link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme'
       }
-    ]
+    ],
+  },
+  sitemap: {
+    hostname: 'https://qifeiai.top'
   }
 })
