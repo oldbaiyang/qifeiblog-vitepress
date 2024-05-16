@@ -43,7 +43,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
-      { text: '程序员', link: '?tag=SOP&type=#' },
+      { text: '程序员', link: 'https://qifeiai.top/?tag=%E7%A8%8B%E5%BA%8F%E5%91%98' },
       {
         text: '折叠菜单',
         items: [

@@ -1,17 +1,15 @@
 ---
 # 页面的标题
-title: 
+title: 如何在 Debian 11 上设置一个静态 IP 地址
 
 # 页面的描述
 description:
 editLink: true
+categories:
+  - 程序员
 tag:
- - 程序员
  - debian
 ---
-# 如何在 Debian 11 上设置一个静态 IP 地址
-参考：https://juejin.cn/post/7124495623914520589
-
 
 命令行输入命令
 ```shell
@@ -45,3 +43,5 @@ ip a
 ```
 
 ![image.png](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20240514093330.png)
+
+参考：https://juejin.cn/post/7124495623914520589
