@@ -117,7 +117,7 @@ const blogTheme = getThemeConfig({
   // 用于设置文章页作者信息跳转相关信息默认情况下author仅做展示设置这个列表后，作者信息如果匹配上，即可跳转
   authorList: [
     {
-      nickname: 'qifei',
+      nickname: '棋飞',
       url: 'https://qifeiai.top',
       des: '硅基文明终将统治地球'
     }
