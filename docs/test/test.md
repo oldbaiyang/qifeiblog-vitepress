@@ -15,6 +15,8 @@ editLink: true
 #     - name: keywords
 #       content: super duper SEO
 footer: true
+# top: 1
+tag:
+  - tag1
+  - tag2
 ---
-
-asdfahs
