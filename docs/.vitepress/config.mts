@@ -55,6 +55,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: '网址导航', link: 'https://nav.qifeiai.top/nav/' },
       { text: '程序员', link: 'https://qifeiai.top/?tag=%E7%A8%8B%E5%BA%8F%E5%91%98' },
       {
         text: '折叠菜单',
