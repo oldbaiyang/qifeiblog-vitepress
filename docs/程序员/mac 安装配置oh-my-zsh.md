@@ -23,6 +23,7 @@ tag:
  - mac
 ---
 
+
 # mac 安装配置oh-my-zsh
 
 ## 1. 安装brew
@@ -77,4 +78,35 @@ sh -c "$(wget -O- https://gitee.com/pocmon/mirrors/raw/master/tools/install.sh)"
 
 安装完成后，你需要重新启动终端，以便使用新的Zsh和Oh My Zsh。
 
+## 6. 为 Oh My Zsh 安装 Powerlevel10k 主题
 
+打开终端，运行以下命令，从 GitHub 上克隆 Powerlevel10k 代码库，并将文件放到 Oh My Zsh 的配置文件夹中。
+
+```sh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+用文本编辑器打开 `~/.zshrc` 文件，将 `ZSH_THEME` 变量设为 `"powerlevel10k/powerlevel10k"`。
+
+![image.png](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20240521182628.png)
+
+重新启动你的终端，启动首次向导来设置 Powerlevel10k 主题。
+
+### 配置时遇到字体文件无法下载问题
+
+```
+curl -fsSL -o /Users/zcy/Library/Fonts/MesloLGS\ NF\ Regular.ttf.tmp https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+
+这句报错，忘了截图了
+```
+
+发现是自体文件下载地址不对，应该是作者修改了自体文件仓库地址
+
+解决：
+修改`～/.oh-my-zsh/custom/themes/powerlevel10k/internal/wizard.zsh`文件
+找到，local -r font_base_url，修改为
+```
+local -r font_base_url='https://github.com/romkatv/powerlevel10k-media/blob/master/'
+```
+
+重启客户端，再次运行配置向导
