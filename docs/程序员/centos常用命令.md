@@ -169,3 +169,9 @@ https://developer.aliyun.com/article/704987
 ```
 gzip -d xxx.gz
 ```
+
+### 配置命令别名
+
+```
+alias ohmyzsh="mate ~/.oh-my-zsh"
+```
