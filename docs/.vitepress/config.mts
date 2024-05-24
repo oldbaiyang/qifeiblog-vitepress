@@ -42,10 +42,10 @@ export default defineConfig({
         `
         var _hmt = _hmt || [];
         (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?4ddd4101e873bf65b3c0d5b1ced5555d";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?4ddd4101e873bf65b3c0d5b1ced5555d";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
         })();
         `
     ]
