@@ -34,6 +34,20 @@ export default defineConfig({
       'script',
       {},
       "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-P7014N5P91');"
+    ],
+    // 添加百度统计
+    [
+        "script",
+        {},
+        `
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4ddd4101e873bf65b3c0d5b1ced5555d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+        })();
+        `
     ]
   ],
   themeConfig: {
