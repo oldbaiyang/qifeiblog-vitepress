@@ -3,6 +3,7 @@
 title: 
 # 标题的后缀。
 titleTemplate:
+date: 2024-05-23 19:48
 # 页面的描述
 description:
 # editLink: true
