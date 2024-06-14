@@ -43,6 +43,13 @@ chrome浏览器114版本之后下载地址：[https://googlechromelabs.github.io
 ![image.png](https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20240614132009.png)
 
 
+126.0.6478.61/chromedriver/mac-arm64下载地址：
+https://url40.ctfile.com/f/24033340-1272231712-dc4aed?p=7827 (访问密码: 7827)
+
+126.0.6478.61/chromedriver/win64下载地址：
+https://url40.ctfile.com/f/24033340-1272232366-f6ff2c?p=7827 (访问密码: 7827)
+
+
 ## selenium使用
 
 引入selenium包，打开百度页面
